@@ -1,11 +1,11 @@
 import React, { useState, PureComponent, useContext, useEffect} from "react";
 
 import DashboardBoxes from "../../Components/DashboardBoxes";
-import { Button } from "@mui/material";
+import { Badge, Button } from "@mui/material";
 import { FaPlus, FaRegEye } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa6";
 import { FaAngleUp } from "react-icons/fa6";
-import Badge from "../../components/Badge";
+
 import Checkbox from "@mui/material/Checkbox";
 import { Link } from "react-router-dom";
 import Progress from "../../Components/ProgressBar";
