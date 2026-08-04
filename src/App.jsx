@@ -17,7 +17,7 @@ import Category from './Pages/Category';
 import SubCategoryList from './Pages/Category/SubCatList';
 import Users from './Pages/Users';
 import Orders from './Pages/Orders';
-import ForgotPassword from './Pages/forgotPassword';
+import ForgotPassword from './Pages/ForgotPassword';
 import VerifyAccount from './Pages/VerifyAccount';
 import ChangePassword from './Pages/ChangePassword';
 import  { useEffect} from "react";
