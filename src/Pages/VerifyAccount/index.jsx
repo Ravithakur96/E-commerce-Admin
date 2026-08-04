@@ -4,7 +4,7 @@ import Button  from '@mui/material/Button';
 import { postData } from '../../utils/api';
 import { useNavigate } from 'react-router-dom';
 import { MyContext } from '../../App';
- 
+
 const Verify = () => {
     const[otp, setOtp] = useState();
     const handleOtpChange = (value) =>{
